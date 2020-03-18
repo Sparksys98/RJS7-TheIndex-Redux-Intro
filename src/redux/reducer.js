@@ -1,6 +1,8 @@
+import authors from "../data.js";
+
 const initialState = {
-  authors: "COMPLETE ME",
-  newAuthorId: "DO YOU NEED ME??"
+  authors: authors,
+  newAuthorId: 5
 };
 
 export default (state = initialState, action) => {
